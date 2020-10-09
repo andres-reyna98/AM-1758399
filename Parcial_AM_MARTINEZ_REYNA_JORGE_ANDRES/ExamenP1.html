@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>super buscador de clima 5000</title>
+        <link rel="stylesheet" type="text/css" href="examenP1.css">
+        <script src="apiweathercall.js" language="javascript" type="text/javascript"></script>
+        <script src="ViewWeather.js" language="javascript" type="text/javascript"></script>
+    </head>
+    <body background="https://thumbs.gfycat.com/IckyAmbitiousBasenji-size_restricted.gif" style="background-repeat:no-repeat; background-size:cover;">
+        <div align="center">
+            <h2>Buscador de temperaturas actuales en la Republica Mexicana</h2>
+            <h3>Ingresa en el texto el nombre de la ciudad</h3>
+
+        <form>
+        <input type="text" id="ciudad" placeholder="ciudad" >
+        </form>
+        <button id="buscar" onclick="search()" >Buscar clima</button>
+            <div id="climitaPapa" >
+
+            </div> 
+        </div>
+        <script>
+            function checkbotton(){
+                document.getElementById("buscar").value="esperese mbree";
+                document.getElementById("buscar").disable=true;
+                return true;
+            }
+
+         </script>
+    </body>
+   
+</html>
